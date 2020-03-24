@@ -1,0 +1,33 @@
+00:00:00:000
+State for model input_reader_Con is next time: 00:00:00:000
+State for model heater1 is index: 0
+00:00:00:000
+State for model input_reader_Con is next time: 00:00:01:000
+State for model heater1 is index: 0
+00:00:01:000
+State for model input_reader_Con is next time: 00:00:01:000
+State for model heater1 is index: 0
+00:00:02:000
+State for model input_reader_Con is next time: 00:00:01:000
+State for model heater1 is index: 0.5
+00:00:03:000
+State for model input_reader_Con is next time: 00:00:01:000
+State for model heater1 is index: 0
+00:00:04:000
+State for model input_reader_Con is next time: 00:00:01:000
+State for model heater1 is index: 0.5
+00:00:05:000
+State for model input_reader_Con is next time: inf
+State for model heater1 is index: 0.5
+00:00:06:000
+State for model input_reader_Con is next time: inf
+State for model heater1 is index: 0.5
+00:00:07:000
+State for model input_reader_Con is next time: inf
+State for model heater1 is index: 0.5
+00:00:08:000
+State for model input_reader_Con is next time: inf
+State for model heater1 is index: 0.5
+00:00:09:000
+State for model input_reader_Con is next time: inf
+State for model heater1 is index: 0.5

@@ -1,0 +1,75 @@
+**************************************************
+* House Heating System
+* 
+*
+* Joshil Thummer (Carleton ID 101166716)
+* 
+*
+*
+**************************************************
+This model contains total of 3 atomic models and 1 top model which are
+
+To run the model, 
+
+ 1) Open bash prompt and type the command 'make clean; make all'
+ 
+ That will create all the executables in the folder 'bin'
+
+ Once the executables files are generated;
+
+  2) Open bash prompt in 'bin' folder and type in the following command to run the Top model;
+
+ ./HOUSETOP.exe ../input_data/HOUSE_IN.txt
+ 
+  Similary, to run the other atomic models, type in the following commands
+ 
+ ./TRANSDUC_TEST.exe
+ ./THERMO_TEST.exe
+ ./HEATER_TEST.exe
+
+  all the output files will be created inside the "Simulation results" folder
+
+  The Input data files are created such that it contains all the test cases needed to check the performance of the model. 
+
+****************************************************************
+Atomic models
+
+1) Transducer
+
+ .HPP file name = Transduc
+ .CPP file name = main_transduc_test
+ 
+ Input Data file name = Transduc_Tout_In, Transduc_Troom_In
+ Output Data file name = Transduc_test_output_messages, Transduc_test_output_state
+ 
+ 
+2) Thermostat
+
+ .HPP file name = Thermo
+ .CPP file name = main_thermo_test
+ 
+ Input Data file name = Thermo_HG_In, Thermo_HL_In
+ Output Data file name = Thermo_test_output_messages, Thermo_test_output_state
+ 
+ 
+3) Heater
+
+ .HPP file name = Heater
+ .CPP file name = main_heater_test
+ 
+ Input Data file name = Heater_Con_In
+ Output Data file name = Heater_test_output_messages, Heater_test_output_state
+ 
+*****************************************************************************
+TOP Model
+
+Top model name is "main" 
+Input data file name is "HOUSE_IN"
+*****************************************************************************
+
+For atomic models; all the .HPP files are in the folder 'atomics' and .CPP files are in folder 'tests'
+.CPP file of the Top model is in folder 'top_model'
+
+
+************************************************************
+
